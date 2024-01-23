@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    margin: 0;
+}
+  
+#brand-name {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+  
+nav {
+    background-color: black;
+}
+  
+ul.nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}

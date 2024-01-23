@@ -1,0 +1,41 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+.footer-contact {
+    order: 1;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact-us {
+    font-size: 25px;
+}
+
+.footer-social {
+    padding-right: 20px;
+}
+
+.footer-social ul {
+    display: flex;
+    flex-direction: column;
+}
+  
+.footer-social li {
+    margin-bottom: 20px;
+}
+  
+.footer-bottom {
+    text-align: center;
+}
