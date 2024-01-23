@@ -43,7 +43,6 @@ const Home = () => {
       <section className="featured-products">
         <h2 id="featured">FEATURED PRODUCTS</h2>
         <div className="materialize-carousel">
-  {/* Carousel component using Materialize styles */}
   <Carousel images={images} />
 </div>
       </section>

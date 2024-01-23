@@ -31,7 +31,7 @@ const Products = () => {
   };
 
   const handleSortButtonClick = () => {
-    fetchProducts(); // Simply fetch products when the "Sort" button is clicked
+    fetchProducts();
   };
 
   const handleSortOptionChange = (event) => {
